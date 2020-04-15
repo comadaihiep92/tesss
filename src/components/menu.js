@@ -48,6 +48,7 @@ export default () => {
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
+                        alt=""
                       />
                     </div>
                     Cloud <span className="sr-only">(current)</span>
@@ -56,7 +57,12 @@ export default () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="2">
                     <div>
-                      <img src={ecommerce} role="presentation" width="30px" />
+                      <img
+                        src={ecommerce}
+                        role="presentation"
+                        width="30px"
+                        alt=""
+                      />
                     </div>
                     Ecommerce
                   </a>
@@ -64,7 +70,12 @@ export default () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="3">
                     <div>
-                      <img src={email} role="presentation" width="30px" />
+                      <img
+                        src={email}
+                        role="presentation"
+                        width="30px"
+                        alt=""
+                      />
                     </div>
                     Email
                   </a>
@@ -77,6 +88,7 @@ export default () => {
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
+                        alt=""
                       />
                     </div>
                     Podcast
@@ -85,7 +97,12 @@ export default () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="5">
                     <div>
-                      <img src={sites} role="presentation" width="30px" />
+                      <img
+                        src={sites}
+                        role="presentation"
+                        width="30px"
+                        alt=""
+                      />
                     </div>
                     Sites
                   </a>
@@ -98,6 +115,7 @@ export default () => {
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
+                        alt=""
                       />
                     </div>
                     Video
@@ -111,6 +129,7 @@ export default () => {
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
+                        alt=""
                       />
                     </div>
                     Cursos
