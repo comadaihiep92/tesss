@@ -5,6 +5,8 @@ import "./hero-slider-style.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
 
+import { Helmet } from "react-helmet"
+
 // import "../js/bootstrap.min.js"
 // import "../js/hero-slider-main.js"
 // import "../js/jquery-1.11.3.min.js"
@@ -23,6 +25,9 @@ import cursos from "../img/cursos.svg"
 export default () => {
   return (
     <header>
+      <Helmet>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
+      </Helmet>
       {/* <!-- Navigation -->         */}
       <div className="cd-slider-nav">
         <nav className="navbar container">

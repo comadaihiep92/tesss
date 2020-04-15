@@ -5,8 +5,6 @@ import Layout from "../components/layout"
 // import "../js/bootstrap.min"
 // import "../js/jquery.magnific-popup.min"
 
-import { Helmet } from "react-helmet"
-
 import $ from "jquery"
 
 export default () => {
@@ -212,9 +210,6 @@ export default () => {
 
   return (
     <Layout>
-      <Helmet>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
-      </Helmet>
       <div className="clearfix"></div>
       <ul className="cd-hero-slider">
         <li className="selected">
