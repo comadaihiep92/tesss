@@ -1,14 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-// import "../js/hero-slider-main"
+// import slider from "../js/hero-slider-main"
 // import "../js/jquery-1.11.3.min"
 // import "../js/bootstrap.min"
 // import "../js/jquery.magnific-popup.min"
 
-import jquery from "jquery"
+import { Helmet } from "react-helmet"
+
+import $ from "jquery"
 
 export default () => {
-  jquery(document).ready(function($) {
+  $(document).ready(function($) {
     var slidesWrapper = $(".cd-hero-slider")
 
     //check if a .cd-hero-slider exists in the DOM
@@ -210,6 +212,9 @@ export default () => {
 
   return (
     <Layout>
+      <Helmet>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
+      </Helmet>
       <div className="clearfix"></div>
       <ul className="cd-hero-slider">
         <li className="selected">
