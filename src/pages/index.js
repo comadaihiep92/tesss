@@ -5,10 +5,10 @@ import Layout from "../components/layout"
 // import "../js/bootstrap.min"
 // import "../js/jquery.magnific-popup.min"
 
-import $ from "jquery"
+import jquery from "jquery"
 
 export default () => {
-  $(document).ready(function($) {
+  jquery(document).ready(function($) {
     var slidesWrapper = $(".cd-hero-slider")
 
     //check if a .cd-hero-slider exists in the DOM
@@ -207,6 +207,7 @@ export default () => {
       return this
     }
   })
+
   return (
     <Layout>
       <div className="clearfix"></div>
