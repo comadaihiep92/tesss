@@ -215,6 +215,7 @@ export default () => {
     })
   }
 
+  onClientEntry()
   return (
     <Layout>
       <div className="clearfix"></div>
