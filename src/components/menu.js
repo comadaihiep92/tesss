@@ -4,6 +4,20 @@ import "./bootstrap.min.css"
 import "./hero-slider-style.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
+
+// import "../js/bootstrap.min.js"
+// import "../js/hero-slider-main.js"
+// import "../js/jquery-1.11.3.min.js"
+// import "../js/jquery.magnific-popup.min.js"
+// import "../js/jquery.magnific-popup.min.js"
+
+import cloud from "../img/cloud.svg"
+import ecommerce from "../img/ecommerce.svg"
+import email from "../img/email.svg"
+import podcast from "../img/podcast.svg"
+import sites from "../img/sites.svg"
+import video from "../img/video.svg"
+import cursos from "../img/cursos.svg"
 // import Menu from "./menu"
 
 export default () => {
@@ -27,10 +41,10 @@ export default () => {
             >
               <ul className="nav navbar-nav">
                 <li className="nav-item active selected">
-                  <a className="nav-link" href="#0" data-no="1">
+                  <a className="nav-link" href={`/`} data-no="1">
                     <div>
                       <img
-                        src="img/cloud.svg"
+                        src={cloud}
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
@@ -40,34 +54,26 @@ export default () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="2">
+                  <a className="nav-link" href={`/`} data-no="2">
                     <div>
-                      <img
-                        src="img/ecommerce.svg"
-                        role="presentation"
-                        width="30px"
-                      />
+                      <img src={ecommerce} role="presentation" width="30px" />
                     </div>
                     Ecommerce
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="3">
+                  <a className="nav-link" href={`/`} data-no="3">
                     <div>
-                      <img
-                        src="img/email.svg"
-                        role="presentation"
-                        width="30px"
-                      />
+                      <img src={email} role="presentation" width="30px" />
                     </div>
                     Email
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="4">
+                  <a className="nav-link" href={`/`} data-no="4">
                     <div>
                       <img
-                        src="img/podcast.svg"
+                        src={podcast}
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
@@ -77,22 +83,18 @@ export default () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="5">
+                  <a className="nav-link" href={`/`} data-no="5">
                     <div>
-                      <img
-                        src="img/sites.svg"
-                        role="presentation"
-                        width="30px"
-                      />
+                      <img src={sites} role="presentation" width="30px" />
                     </div>
                     Sites
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="6">
+                  <a className="nav-link" href={`/`} data-no="6">
                     <div>
                       <img
-                        src="img/video.svg"
+                        src={video}
                         role="presentation"
                         aria-hidden="true"
                         width="30px"
@@ -102,10 +104,10 @@ export default () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#0" data-no="6">
+                  <a className="nav-link" href={`/`} data-no="6">
                     <div>
                       <img
-                        src="img/cursos.svg"
+                        src={cursos}
                         role="presentation"
                         aria-hidden="true"
                         width="30px"

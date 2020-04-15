@@ -10,7 +10,7 @@ export default ({ children }) => {
   return (
     <div className="app">
       <Menu />
-      <div class="cd-hero">{children}</div>
+      <div className="cd-hero">{children}</div>
     </div>
   )
 }
