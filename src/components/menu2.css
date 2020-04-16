@@ -3202,6 +3202,11 @@
   background-color: white;
 }
 
+.nav__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav a:visited {
   color: black;
 }
