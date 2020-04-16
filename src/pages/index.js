@@ -545,6 +545,25 @@ export default class App extends React.Component {
             </div>
             {/*  <!-- .cd-full-width --> */}
           </li>
+
+          <li>
+            <div className="cd-full-width">
+              <div
+                className="container-fluid js-tm-page-content"
+                data-page-no="7"
+              >
+                <div
+                  className="cd-bg-video-wrapper"
+                  data-video="video/night-light-blur"
+                >
+                  {/* <!-- video element will be loaded using jQuery --> */}
+                </div>
+                {/* <!-- .cd-bg-video-wrapper --> */}
+              </div>
+              {/* <!-- .container-fluid --> */}
+            </div>
+            {/* <!-- .cd-full-width --> */}
+          </li>
         </ul>
         {/*  <!-- .cd-hero-slider --> */}
       </Layout>

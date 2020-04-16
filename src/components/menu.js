@@ -127,7 +127,7 @@ export default () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={`/`} data-no="6">
+                  <a className="nav-link" href={`/`} data-no="7">
                     <div>
                       <img
                         src={cursos}
