@@ -3197,3 +3197,28 @@
     url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/5ff63ae1fc81f9f6c5d5c7718c0d0d32.woff")
       format("woff");
 }
+
+.nav {
+  background-color: white;
+}
+
+.nav a:visited {
+  color: black;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav .nav__text {
+  color: black;
+  background: unset;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid #5f6c80;
+  padding: 20px 0;
+}

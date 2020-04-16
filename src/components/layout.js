@@ -16,6 +16,26 @@ export default ({ children }) => {
       <div className="wrapper">
         <Menu />
         <div className="cd-hero">{children}</div>
+        <footer class="footer">
+          <div>© 2020 by Stork. All rights reserved.</div>
+          <div>
+            <a
+              aria-label="Link to the theme's GitHub repository"
+              href="#"
+              class="css-1od09yo"
+            >
+              Theme
+            </a>{" "}
+            by{" "}
+            <a
+              aria-label="Link to the theme author's website"
+              href="#"
+              class="css-1od09yo"
+            >
+              Stork
+            </a>
+          </div>
+        </footer>
       </div>
     </div>
   )
