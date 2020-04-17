@@ -1,26 +1,11 @@
 import React from "react"
 // import "./menu.css"
-import "./bootstrap.min.css"
-import "./hero-slider-style.css"
-import "./magnific-popup.css"
-import "./templatemo-style.css"
+// import "./bootstrap.min.css"
+// import "./hero-slider-style.css"
+// import "./magnific-popup.css"
+// import "./templatemo-style.css"
 
 import { Helmet } from "react-helmet"
-
-// import "../js/bootstrap.min.js"
-// import "../js/hero-slider-main.js"
-// import "../js/jquery-1.11.3.min.js"
-// import "../js/jquery.magnific-popup.min.js"
-// import "../js/jquery.magnific-popup.min.js"
-
-import cloud from "../img/cloud.svg"
-import ecommerce from "../img/ecommerce.svg"
-import email from "../img/email.svg"
-import podcast from "../img/podcast.svg"
-import sites from "../img/sites.svg"
-import video from "../img/video.svg"
-import cursos from "../img/cursos.svg"
-// import Menu from "./menu"
 
 export default () => {
   return (
@@ -60,7 +45,7 @@ export default () => {
                 class=" sl c2 c4 hk sm sn so sp sq sr ss st c8 su sv b5 sw sx s8 s9 cj sy sz t0 g5 cn ey cm o0 ck cu t1 tc td te tf t6 t7 tg th bv bh ta tb nav__text"
               >
                 About us
-                <div class="bw dw">
+                {/* <div class="bw dw">
                   <svg
                     data-baseweb="icon"
                     viewBox="0 0 24 24"
@@ -74,7 +59,7 @@ export default () => {
                       d="M9 12C9 12.2652 9.10536 12.5196 9.29289 12.7071L13.2929 16.7071C13.6834 17.0976 14.3166 17.0976 14.7071 16.7071C15.0976 16.3166 15.0976 15.6834 14.7071 15.2929L11.4142 12L14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289C14.3166 6.90237 13.6834 6.90237 13.2929 7.29289L9.29289 11.2929C9.10536 11.4804 9 11.7348 9 12Z"
                     ></path>
                   </svg>
-                </div>
+                </div> */}
               </button>
             </li>
             <li class="do cp h5 cm nav__item">

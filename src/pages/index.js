@@ -1,5 +1,9 @@
 import React from "react"
 import Layout3 from "../components/layout3"
+// import slider from "../js/hero-slider-main"
+// import "../js/jquery-1.11.3.min"
+// import "../js/bootstrap.min"
+// import "../js/jquery.magnific-popup.min"
 
 import $ from "jquery"
 

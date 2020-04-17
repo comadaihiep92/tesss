@@ -1,10 +1,10 @@
 import React from "react"
-// import "./layout.css"
+import "./menu.css"
 import "./bootstrap.min.css"
 import "./hero-slider-style.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
-import Menu from "./menu"
+import Menu from "./menu-cloud"
 import Menu2 from "./menu2"
 
 import "./menu.css"
