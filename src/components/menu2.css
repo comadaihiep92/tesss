@@ -3220,6 +3220,19 @@
   background: unset;
 }
 
+.sub-menu {
+  display: none;
+  position: absolute;
+  width: 200px;
+}
+
+.nav__item:hover .sub-menu {
+  display: block;
+}
+.sub-menu__list {
+  padding: 20px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
