@@ -24,7 +24,7 @@ import cursos from "../img/cursos.svg"
 
 export default () => {
   return (
-    <header>
+    <div>
       <Helmet>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
       </Helmet>
@@ -159,6 +159,6 @@ export default () => {
           </li>
         </ul>
       </div> */}
-    </header>
+    </div>
   )
 }

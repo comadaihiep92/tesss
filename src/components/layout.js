@@ -1,25 +1,70 @@
 import React from "react"
-// import "./layout.css"
-import "./bootstrap.min.css"
-import "./hero-slider-style.css"
-import "./magnific-popup.css"
-import "./templatemo-style.css"
-import Menu from "./menu"
-import Menu2 from "./menu2"
+import { Link } from "gatsby"
 
-import "./menu.css"
+import { rhythm, scale } from "../utils/typography"
 
-export default ({ children }) => {
+const Layout = ({ location, title, children }) => {
+  const rootPath = `${__PATH_PREFIX__}/`
+  let header
+
+  if (location.pathname === rootPath) {
+    header = (
+      <h1
+        style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h1>
+    )
+  } else {
+    header = (
+      <h3
+        style={{
+          fontFamily: `Montserrat, sans-serif`,
+          marginTop: 0,
+        }}
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h3>
+    )
+  }
   return (
-    <div className="app">
-      <Menu2 />
-      <div className="wrapper">
-        <Menu />
-        <div className="cd-hero">{children}</div>
-        <footer class="footer">
-          <div>© 2020 by Stork. All rights reserved.</div>
-        </footer>
-      </div>
+    <div
+      style={{
+        marginLeft: `auto`,
+        marginRight: `auto`,
+        maxWidth: rhythm(24),
+        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+      }}
+    >
+      <header>{header}</header>
+      <main>{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
     </div>
   )
 }
+
+export default Layout
