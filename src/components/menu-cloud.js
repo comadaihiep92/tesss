@@ -1,5 +1,5 @@
 import React from "react"
-// import "./menu.css"
+import "./menu2.css"
 import "./bootstrap.min.css"
 import "./hero-slider-style.css"
 import "./magnific-popup.css"
@@ -24,7 +24,7 @@ import cursos from "../img/cursos.svg"
 
 export default () => {
   return (
-    <header>
+    <div>
       <Helmet>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
       </Helmet>
@@ -127,7 +127,7 @@ export default () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href={`/`} data-no="6">
+                  <a className="nav-link" href={`/`} data-no="7">
                     <div>
                       <img
                         src={cursos}
@@ -159,6 +159,6 @@ export default () => {
           </li>
         </ul>
       </div> */}
-    </header>
+    </div>
   )
 }
