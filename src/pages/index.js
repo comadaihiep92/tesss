@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 // import "../js/jquery-1.11.3.min"
 // import "../js/bootstrap.min"
 // import "../js/jquery.magnific-popup.min"
+// import "bootstrap/dist/css/bootstrap.css"
 
 import $ from "jquery"
 
@@ -213,6 +214,8 @@ export default class App extends React.Component {
         return this
       }
     })
+
+    // ok
   }
 
   render() {
