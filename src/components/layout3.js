@@ -9,7 +9,7 @@ import Menu2 from "./menu2"
 
 import "./menu.css"
 
-export default ({ children }) => {
+const Layout3 = ({ children }) => {
   return (
     <div className="app">
       <Menu2 />
@@ -23,3 +23,5 @@ export default ({ children }) => {
     </div>
   )
 }
+
+export default Layout3
