@@ -33,7 +33,7 @@ body {
 .section_contain {
   position: relative;
   top: 140px;
-  left: 21px;
+  left: 15px;
 }
 .button_block {
   padding-top: 40px;
@@ -691,7 +691,7 @@ textarea {
   .section_contain {
     position: relative;
     top: 72px;
-    left: 0px;
+    left: 6px;
   }
   .navbar-toggler {
     position: absolute;
@@ -1107,6 +1107,7 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
+
 html {
   font: 100%/1.75 "Merriweather", "Georgia", serif;
   box-sizing: border-box;

@@ -3,8 +3,6 @@ import React from "react"
 import Menu from "./menu-cloud"
 import Menu2 from "./menu2"
 
-import "./menu.css"
-
 const Layout3 = ({ children }) => {
   return (
     <div className="app">
