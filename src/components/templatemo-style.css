@@ -206,6 +206,13 @@ button:focus {
 .cd-hero-slider {
   height: 100vh;
 }
+
+@media only screen and (max-width: 480px) {
+  .cd-hero-slider {
+    height: 900px;
+  }
+}
+
 .cd-hero-slider li {
   list-style: none;
 }
@@ -690,7 +697,7 @@ textarea {
 @media only screen and (max-width: 667px) {
   .section_contain {
     position: relative;
-    top: 72px;
+    top: 100px;
     left: 6px;
   }
   .navbar-toggler {
@@ -1533,7 +1540,7 @@ ol {
 @media only screen and (max-width: 480px) {
   ul,
   ol {
-    margin-left: 1.75rem;
+    /* margin-left: 1.75rem; */
   }
   blockquote {
     margin-left: -1.3125rem;
