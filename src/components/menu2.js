@@ -16,6 +16,7 @@ const Menu2 = () => {
       {/* <!-- Navigation -->         */}
       <nav
         data-baseweb="header-navigation"
+        id="font-stork"
         role="navigation"
         class="o0 bf o1 bg bw rt ru rv bh bj rw rx bc cp cq hi nav"
       >
@@ -510,7 +511,7 @@ const Menu2 = () => {
               </button>
             </li>
 
-            <li class="do cp cq cm item__sign-up">
+            <li class="do cp h5 cm item__sign-up">
               <button
                 data-baseweb="button"
                 class="sl c2 c4 hk sm sn so sp sq sr ss st c8 su sv b5 sw sx s8 s9 cj sy sz t0 g5 cn ey cm o0 ck cu t1 tc td te tf t6 t7 tg th bi dv ti tj tb tk tl"

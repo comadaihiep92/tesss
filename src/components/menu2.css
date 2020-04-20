@@ -1,3 +1,12 @@
+body {
+  color: hsla(0, 0%, 0%, 0.9);
+  font-family: "Merriweather", "Georgia", serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
 .ae {
   background-color: #ffffff;
 }
@@ -246,8 +255,9 @@
   text-align: inherit;
 }
 .ct {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .cu {
   font-weight: 500;
@@ -397,7 +407,8 @@
   display: grid;
 }
 .fp {
-  font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .fq {
   outline-offset: 2px;
@@ -621,7 +632,8 @@
   color: currentColor;
 }
 .jl:nth-child(n) h1 {
-  font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .jm:nth-child(n) h1 {
   font-weight: 500;
@@ -636,7 +648,8 @@
   color: currentColor;
 }
 .ju:nth-child(n) h2 {
-  font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .jv:nth-child(n) h2 {
   font-weight: 500;
@@ -651,7 +664,8 @@
   color: currentColor;
 }
 .k3:nth-child(n) h3 {
-  font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "UberMove", "Open Sans", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .k4:nth-child(n) h3 {
   font-weight: 500;
@@ -666,8 +680,9 @@
   color: currentColor;
 }
 .kc:nth-child(n) h4 {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .kd:nth-child(n) h4 {
   font-weight: 500;
@@ -682,8 +697,9 @@
   color: currentColor;
 }
 .kl:nth-child(n) h5 {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .km:nth-child(n) h5 {
   font-weight: 500;
@@ -698,8 +714,9 @@
   color: currentColor;
 }
 .ku:nth-child(n) h6 {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .kv:nth-child(n) h6 {
   font-weight: 500;
@@ -723,8 +740,9 @@
   padding: 12px;
 }
 .l6:nth-child(n) thead th {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .l7:nth-child(n) thead th {
   font-size: 16px;
@@ -742,8 +760,9 @@
   padding-bottom: 7px;
 }
 .lc:nth-child(n) tbody td {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .ld:nth-child(n) tbody td {
   font-size: 16px;
@@ -890,8 +909,9 @@
   background: transparent;
 }
 .o0 {
-  font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  /* font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .o1 {
   font-weight: normal;
@@ -1182,8 +1202,9 @@
   height: 100%;
 }
 .s5 {
-  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  /* font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .s6 {
   line-height: 112px;
@@ -2019,8 +2040,9 @@
   order: 1;
 }
 .gi {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .gj {
   font-size: 16px;
@@ -2785,8 +2807,9 @@
   order: 1;
 }
 .gm {
-  font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
-    sans-serif;
+  /* font-family: "UberMoveText", "Open Sans", "Helvetica Neue", Helvetica,
+    sans-serif; */
+  font-family: "Merriweather", "Georgia", serif;
 }
 .gn {
   font-size: 16px;

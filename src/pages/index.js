@@ -228,13 +228,13 @@ export default class App extends React.Component {
                       <div className="title">
                         <h2 className="heading_title">
                           {" "}
-                          Get in the driver's seat and get paid
+                          Melhores hospedagem na nuvem
                         </h2>
                       </div>
                       <div className="content_blok">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
                         </p>
                       </div>
                       <div className="button_block">
@@ -254,15 +254,52 @@ export default class App extends React.Component {
           </li>
 
           <li>
+            <div className="">
+              <div
+                className="container section_contain js-tm-page-content tm-page-1"
+                data-page-no="2"
+              >
+                <div className="row">
+                  <div className="col-md-5">
+                    <div className="backgrou-white">
+                      <div className="title">
+                        <h2 className="heading_title">
+                          {" "}
+                          Melhores plataformas de eCommerce
+                        </h2>
+                      </div>
+                      <div className="content_blok">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
+                      </div>
+                      <div className="button_block">
+                        <button className="btn btn-black">Saiba mais</button>
+                      </div>
+                      <div className="link_block_main">
+                        {/* <!-- <a href="#" className="link_block">
+												Learn more about driving and delivering.
+											</a> --> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-7"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          {/* <li>
             <div className="cd-full-width">
               <div className="container js-tm-page-content" data-page-no="2">
                 <div
                   className="cd-bg-video-wrapper"
                   data-video="video/red-flower"
                 >
-                  {/* <!-- video element will be loaded using jQuery --> */}
+                  <!-- video element will be loaded using jQuery -->
                 </div>
-                {/* <!-- .cd-bg-video-wrapper --> */}
+                <!-- .cd-bg-video-wrapper -->
 
                 <div className="row">
                   <div className="col-xs-12">
@@ -306,8 +343,8 @@ export default class App extends React.Component {
                 </div>
               </div>
             </div>
-            {/* <!-- .cd-full-width --> */}
-          </li>
+            <!-- .cd-full-width -->
+          </li> */}
 
           {/* <!-- Page 3 --> */}
           <li>
@@ -322,11 +359,14 @@ export default class App extends React.Component {
                       <div className="title">
                         <h2 className="heading_title">
                           {" "}
-                          Delicious eats, delivered easy
+                          Melhores ferramentas de email marketing
                         </h2>
                       </div>
                       <div className="content_blok">
-                        <p>The restaurants you love, delivered to your door.</p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
                       </div>
                       <div className="button_block">
                         <button className="btn btn-black">Order now</button>
@@ -346,6 +386,42 @@ export default class App extends React.Component {
 
           {/* <!-- Page 4 --> */}
           <li>
+            <div className="">
+              <div
+                className="container section_contain js-tm-page-content tm-page-1"
+                data-page-no="4"
+              >
+                <div className="row">
+                  <div className="col-md-5">
+                    <div className="backgrou-white">
+                      <div className="title">
+                        <h2 className="heading_title">
+                          {" "}
+                          Melhores sites para hospedar podcasts
+                        </h2>
+                      </div>
+                      <div className="content_blok">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
+                      </div>
+                      <div className="button_block">
+                        <button className="btn btn-black">Saiba mais</button>
+                      </div>
+                      <div className="link_block_main">
+                        {/* <!-- <a href="#" className="link_block">
+												Learn more about driving and delivering.
+											</a> --> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-7"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          {/* <li>
             <div className="cd-full-width">
               <div
                 className="container-fluid js-tm-page-content"
@@ -355,16 +431,16 @@ export default class App extends React.Component {
                   className="cd-bg-video-wrapper"
                   data-video="video/night-light-blur"
                 >
-                  {/* <!-- video element will be loaded using jQuery --> */}
+                  <!-- video element will be loaded using jQuery -->
                 </div>
-                {/* <!-- .cd-bg-video-wrapper --> */}
+                <!-- .cd-bg-video-wrapper -->
               </div>
-              {/* <!-- .container-fluid --> */}
+              <!-- .container-fluid -->
             </div>
-            {/* <!-- .cd-full-width --> */}
-          </li>
+            <!-- .cd-full-width -->
+          </li> */}
 
-          <li>
+          {/* <li>
             <div className="cd-full-width">
               <div
                 className="container-fluid js-tm-page-content"
@@ -374,9 +450,9 @@ export default class App extends React.Component {
                   className="cd-bg-video-wrapper"
                   data-video="video/padaut-bee"
                 >
-                  {/* <!-- video element will be loaded using jQuery --> */}
+                  <!-- video element will be loaded using jQuery -->
                 </div>
-                {/* <!-- .cd-bg-video-wrapper --> */}
+                <!-- .cd-bg-video-wrapper -->
 
                 <div className="row">
                   <div className="col-xs-12">
@@ -439,9 +515,45 @@ export default class App extends React.Component {
                 </div>
               </div>
             </div>
+          </li> */}
+          <li>
+            <div className="">
+              <div
+                className="container section_contain js-tm-page-content tm-page-1"
+                data-page-no="5"
+              >
+                <div className="row">
+                  <div className="col-md-5">
+                    <div className="backgrou-white">
+                      <div className="title">
+                        <h2 className="heading_title">
+                          {" "}
+                          Melhores hospedagem de sites
+                        </h2>
+                      </div>
+                      <div className="content_blok">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
+                      </div>
+                      <div className="button_block">
+                        <button className="btn btn-black">Saiba mais</button>
+                      </div>
+                      <div className="link_block_main">
+                        {/* <!-- <a href="#" className="link_block">
+												Learn more about driving and delivering.
+											</a> --> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-7"></div>
+                </div>
+              </div>
+            </div>
           </li>
 
-          <li>
+          {/* <li>
             <div className="cd-full-width">
               <div
                 className="container-fluid js-tm-page-content"
@@ -451,9 +563,9 @@ export default class App extends React.Component {
                   className="cd-bg-video-wrapper"
                   data-video="video/sunset-loop"
                 >
-                  {/* <!-- video element will be loaded using jQuery --> */}
+                  <!-- video element will be loaded using jQuery -->
                 </div>
-                {/* <!-- .cd-bg-video-wrapper --> */}
+                <!-- .cd-bg-video-wrapper -->
 
                 <div className="tm-contact-page">
                   <div className="row">
@@ -467,7 +579,7 @@ export default class App extends React.Component {
                             consectetur.
                           </p>
 
-                          {/* <!-- contact form --> */}
+                          <!-- contact form -->
                           <form
                             action="http://greentaurus.in/two_page/index.html"
                             method="post"
@@ -530,7 +642,7 @@ export default class App extends React.Component {
                           <h2 className="tm-contact-info">
                             123 New Street 11000, San Francisco, CA
                           </h2>
-                          {/* <!-- google map goes here --> */}
+                          <!-- google map goes here -->
                           <div id="google-map"></div>
                         </div>
                       </div>
@@ -539,10 +651,47 @@ export default class App extends React.Component {
                 </div>
               </div>
             </div>
-            {/*  <!-- .cd-full-width --> */}
-          </li>
+             <!-- .cd-full-width -->
+          </li> */}
 
           <li>
+            <div className="">
+              <div
+                className="container section_contain js-tm-page-content tm-page-1"
+                data-page-no="6"
+              >
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="backgrou-white">
+                      <div className="title">
+                        <h2 className="heading_title">
+                          {" "}
+                          Como criar cursos online (plataformas, metodologias)
+                        </h2>
+                      </div>
+                      <div className="content_blok">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
+                      </div>
+                      <div className="button_block">
+                        <button className="btn btn-black">Saiba mais</button>
+                      </div>
+                      <div className="link_block_main">
+                        {/* <!-- <a href="#" className="link_block">
+												Learn more about driving and delivering.
+											</a> --> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-7"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          {/* <li>
             <div className="cd-full-width">
               <div
                 className="container-fluid js-tm-page-content"
@@ -552,16 +701,53 @@ export default class App extends React.Component {
                   className="cd-bg-video-wrapper"
                   data-video="video/night-light-blur"
                 >
-                  {/* <!-- video element will be loaded using jQuery --> */}
+                  <!-- video element will be loaded using jQuery -->
                 </div>
-                {/* <!-- .cd-bg-video-wrapper --> */}
+                <!-- .cd-bg-video-wrapper -->
               </div>
-              {/* <!-- .container-fluid --> */}
+              <!-- .container-fluid -->
             </div>
-            {/* <!-- .cd-full-width --> */}
+            <!-- .cd-full-width -->
+          </li> */}
+
+          <li>
+            <div className="">
+              <div
+                className="container section_contain js-tm-page-content tm-page-1"
+                data-page-no="7"
+              >
+                <div className="row">
+                  <div className="col-md-5">
+                    <div className="backgrou-white">
+                      <div className="title">
+                        <h2 className="heading_title">
+                          {" "}
+                          Melhores plataformas para hospedar videos
+                        </h2>
+                      </div>
+                      <div className="content_blok">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor.
+                        </p>
+                      </div>
+                      <div className="button_block">
+                        <button className="btn btn-black">Saiba mais</button>
+                      </div>
+                      <div className="link_block_main">
+                        {/* <!-- <a href="#" className="link_block">
+												Learn more about driving and delivering.
+											</a> --> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-7"></div>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
-        {/*  <!-- .cd-hero-slider --> */}
+        {/* <!-- .cd-hero-slider --> */}
       </Layout3>
     )
   }
