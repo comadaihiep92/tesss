@@ -1,13 +1,13 @@
 import React from "react"
-// import "./menu.css"
-// import "./bootstrap.min.css"
-// import "./hero-slider-style.css"
-// import "./magnific-popup.css"
-// import "./templatemo-style.css"
+import "./menu.css"
+import "./bootstrap.min.css"
+import "./hero-slider-style.css"
+import "./magnific-popup.css"
+import "./templatemo-style.css"
 
 import { Helmet } from "react-helmet"
 
-export default () => {
+const Menu2 = () => {
   return (
     <header>
       {/* <Helmet>
@@ -524,3 +524,5 @@ export default () => {
     </header>
   )
 }
+
+export default Menu2

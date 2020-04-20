@@ -22,12 +22,12 @@ import video from "../img/video.svg"
 import cursos from "../img/cursos.svg"
 // import Menu from "./menu"
 
-export default () => {
+const MenuCloud = () => {
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
-      </Helmet>
+      </Helmet> */}
       {/* <!-- Navigation -->         */}
       <div className="cd-slider-nav">
         <nav className="navbar container">
@@ -162,3 +162,5 @@ export default () => {
     </div>
   )
 }
+
+export default MenuCloud
