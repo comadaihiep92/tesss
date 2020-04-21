@@ -10,7 +10,7 @@ const Layout3 = ({ children }) => {
       <div className="wrapper">
         <Menu />
         <div className="cd-hero">{children}</div>
-        <footer class="footer">
+        <footer className="footer">
           <div>© 2020 by Stork. All rights reserved.</div>
         </footer>
       </div>

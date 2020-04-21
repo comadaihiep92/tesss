@@ -223,7 +223,7 @@ export default class App extends React.Component {
                 data-page-no="1"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">
@@ -260,7 +260,7 @@ export default class App extends React.Component {
                 data-page-no="2"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">
@@ -354,7 +354,7 @@ export default class App extends React.Component {
                 data-page-no="1"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">
@@ -392,7 +392,7 @@ export default class App extends React.Component {
                 data-page-no="4"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">
@@ -523,7 +523,7 @@ export default class App extends React.Component {
                 data-page-no="5"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">
@@ -717,7 +717,7 @@ export default class App extends React.Component {
                 data-page-no="7"
               >
                 <div className="row">
-                  <div className="col-md-5">
+                  <div className="col-md-6">
                     <div className="backgrou-white">
                       <div className="title">
                         <h2 className="heading_title">

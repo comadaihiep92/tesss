@@ -32,8 +32,16 @@ body {
 }
 .section_contain {
   position: relative;
-  top: 140px;
+  top: 124px;
   left: 15px;
+}
+
+/* stork here */
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+  .navbar-toggler,
+  .tm-navbar {
+    right: 0 !important;
+  }
 }
 .button_block {
   padding-top: 40px;
@@ -205,7 +213,7 @@ button:focus {
 
 /* stork here skyper: motden100@outlook.com https://www.freelancer.com/u/storkj */
 .cd-hero-slider {
-  height: 120vh;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 480px) {
