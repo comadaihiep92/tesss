@@ -40,6 +40,7 @@ const BlogIndex = ({ data, location }) => {
               />
             </section>
           </article>
+          // update blog
         )
       })}
     </Layout>
