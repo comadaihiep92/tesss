@@ -5,6 +5,14 @@ import "./hero-slider-style.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
 
+import cloud from "../img/cloud.svg"
+import ecommerce from "../img/ecommerce.svg"
+import email from "../img/email.svg"
+import podcast from "../img/podcast.svg"
+import sites from "../img/sites.svg"
+import video from "../img/video.svg"
+import cursos from "../img/cursos.svg"
+
 import { Helmet } from "react-helmet"
 
 const Menu2 = () => {
@@ -25,7 +33,7 @@ const Menu2 = () => {
             <li className="do cp s4 cm">
               <a
                 data-baseweb="link"
-                href="#"
+                href="/"
                 target="_self"
                 aria-label="Go to Uber.com"
                 data-tracking-name="_df920f60-6b89-4d30-b760-f5c70aab5461_logo.link_cta25"
@@ -111,6 +119,7 @@ const Menu2 = () => {
                           d="M12 1L2 10.1V23h20V10.1L12 1zm7 19h-5v-6h-4v6H5v-8.6L12 5l7 6.4V20z"
                           fill="currentColor"
                         ></path>
+                        <img src="" />
                       </svg>
                     </div>
                     <div className="a2h a2i a2j c4 a2k a2l a2m bw a2n a2f bx th wv">
@@ -126,7 +135,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Home
+                          Cloud
                         </div>
                       </a>
                     </div>
@@ -160,7 +169,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Ride
+                          Ecommerce
                         </div>
                       </a>
                     </div>
@@ -194,7 +203,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Drive
+                          Email
                         </div>
                       </a>
                     </div>
@@ -230,7 +239,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Eat
+                          Podcast
                         </div>
                       </a>
                     </div>
@@ -266,7 +275,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Restaurants
+                          Sites
                         </div>
                       </a>
                     </div>
@@ -300,7 +309,7 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Freight
+                          Video
                         </div>
                       </a>
                     </div>
@@ -334,11 +343,12 @@ const Menu2 = () => {
                           data-baseweb="typo-labellarge"
                           className="bi o0 cu hq bg"
                         >
-                          Work
+                          Cursos
                         </div>
                       </a>
                     </div>
                   </li>
+                  {/*
                   <li className="c4 bw a2e bk cj a2f a2g">
                     <div className="c4 bw hf hg">
                       <svg
@@ -479,6 +489,7 @@ const Menu2 = () => {
                       </a>
                     </div>
                   </li>
+                 */}
                 </ul>
               </div>
             </li>
