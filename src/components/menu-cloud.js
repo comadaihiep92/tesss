@@ -52,7 +52,7 @@ const MenuCloud = () => {
                         src={cloud}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -65,7 +65,7 @@ const MenuCloud = () => {
                       <img
                         src={ecommerce}
                         role="presentation"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -75,12 +75,7 @@ const MenuCloud = () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="3">
                     <div>
-                      <img
-                        src={email}
-                        role="presentation"
-                        width="30px"
-                        alt=""
-                      />
+                      <img src={email} role="presentation" width="30" alt="" />
                     </div>
                     Email
                   </a>
@@ -92,7 +87,7 @@ const MenuCloud = () => {
                         src={podcast}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -102,12 +97,7 @@ const MenuCloud = () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="5">
                     <div>
-                      <img
-                        src={sites}
-                        role="presentation"
-                        width="30px"
-                        alt=""
-                      />
+                      <img src={sites} role="presentation" width="30" alt="" />
                     </div>
                     Sites
                   </a>
@@ -119,7 +109,7 @@ const MenuCloud = () => {
                         src={video}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -133,7 +123,7 @@ const MenuCloud = () => {
                         src={cursos}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
