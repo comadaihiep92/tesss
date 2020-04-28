@@ -33,7 +33,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Home (outlined)</title>
                         <path
@@ -44,7 +43,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Home">
+                      <a href="#" target="_self">
                         <div className="item__link">Cloud</div>
                       </a>
                     </div>
@@ -56,7 +55,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Car front (outlined)</title>
                         <path
@@ -66,7 +64,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Ride">
+                      <a href="#" target="_self">
                         <div className="item__link">Ecommerce</div>
                       </a>
                     </div>
@@ -78,7 +76,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Steering wheel (outlined)</title>
                         <path
@@ -88,7 +85,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Drive">
+                      <a href="#" target="_self">
                         <div className="item__link">Email</div>
                       </a>
                     </div>
@@ -100,7 +97,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Restaurant (outlined)</title>
                         <path
@@ -112,7 +108,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Eat">
+                      <a href="#" target="_self">
                         <div className="item__link">Podcast</div>
                       </a>
                     </div>
@@ -124,7 +120,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Wine (outlined)</title>
                         <path
@@ -136,7 +131,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Restaurants">
+                      <a href="#" target="_self">
                         <div className="item__link">Sites</div>
                       </a>
                     </div>
@@ -148,7 +143,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Truck (outlined)</title>
                         <path
@@ -158,7 +152,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Freight">
+                      <a href="#" target="_self">
                         <div className="item__link">Video</div>
                       </a>
                     </div>
@@ -170,7 +164,6 @@ const Menu2 = () => {
                         height="16"
                         viewBox="0 0 24 24"
                         fill="none"
-                        size="16"
                       >
                         <title>Job busser (outlined)</title>
                         <path
@@ -180,7 +173,7 @@ const Menu2 = () => {
                       </svg>
                     </div>
                     <div className="item__text">
-                      <a href="#" target="_self" label="Work">
+                      <a href="#" target="_self">
                         <div className="item__link">Cursos</div>
                       </a>
                     </div>
@@ -197,27 +190,16 @@ const Menu2 = () => {
 
           <ul className="nav__item">
             <li className="nav__item-li">
-              <button
-                data-baseweb="button"
-                className="sl c2 c4 hk sm sn so sp sq sr ss st c8 su sv b5 sw sx s8 s9 cj sy sz t0 g5 cn ey cm o0 ck cu t1 tc td te tf t6 t7 tg th bv bh ta tb item__login"
-              >
-                <div className="bw a1r">
-                  <svg
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    size="16"
-                  >
-                    <title>Person (outlined)</title>
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M17.5 6.5c0 3-2.5 5.5-5.5 5.5S6.5 9.5 6.5 6.5 9 1 12 1s5.5 2.5 5.5 5.5zm-3 0C14.5 5.1 13.4 4 12 4S9.5 5.1 9.5 6.5 10.6 9 12 9s2.5-1.1 2.5-2.5zM3 20c0-3.3 2.7-6 6-6h6c3.3 0 6 2.7 6 6v3h-3v-3c0-1.7-1.4-3-3-3H9c-1.6 0-3 1.3-3 3v3H3v-3z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
+              <button data-baseweb="button" className="item__login">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                  <title>Person (outlined)</title>
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M17.5 6.5c0 3-2.5 5.5-5.5 5.5S6.5 9.5 6.5 6.5 9 1 12 1s5.5 2.5 5.5 5.5zm-3 0C14.5 5.1 13.4 4 12 4S9.5 5.1 9.5 6.5 10.6 9 12 9s2.5-1.1 2.5-2.5zM3 20c0-3.3 2.7-6 6-6h6c3.3 0 6 2.7 6 6v3h-3v-3c0-1.7-1.4-3-3-3H9c-1.6 0-3 1.3-3 3v3H3v-3z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
                 Log in
               </button>
             </li>
