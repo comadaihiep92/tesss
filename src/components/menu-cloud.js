@@ -1,7 +1,7 @@
 import React from "react"
 import "./menu2.css"
-import "./bootstrap.min.css"
 import "./hero-slider-style.css"
+// import "./bootstrap.min.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
 
