@@ -39,7 +39,6 @@ const Menu2 = () => {
                           d="M12 1L2 10.1V23h20V10.1L12 1zm7 19h-5v-6h-4v6H5v-8.6L12 5l7 6.4V20z"
                           fill="currentColor"
                         ></path>
-                        <img src="" />
                       </svg>
                     </div>
                     <div className="item__text">
