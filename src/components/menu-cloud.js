@@ -1,17 +1,8 @@
 import React from "react"
 import "./menu2.css"
 import "./hero-slider-style.css"
-import "./bootstrap.min.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
-
-import { Helmet } from "react-helmet"
-
-// import "../js/bootstrap.min.js"
-// import "../js/hero-slider-main.js"
-// import "../js/jquery-1.11.3.min.js"
-// import "../js/jquery.magnific-popup.min.js"
-// import "../js/jquery.magnific-popup.min.js"
 
 import cloud from "../img/cloud.svg"
 import ecommerce from "../img/ecommerce.svg"
@@ -25,10 +16,6 @@ import cursos from "../img/cursos.svg"
 const MenuCloud = () => {
   return (
     <div>
-      {/* <Helmet>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
-      </Helmet> */}
-      {/* <!-- Navigation -->         */}
       <div className="cd-slider-nav">
         <nav className="navbar container">
           <div className="tm-navbar-bg">

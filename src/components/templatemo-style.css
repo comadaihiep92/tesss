@@ -1194,7 +1194,7 @@ h1 {
   color: inherit;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 2.5rem;
   line-height: 1.1;
 }
@@ -1210,7 +1210,7 @@ h2 {
   color: inherit;
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 1.73286rem;
   line-height: 1.1;
 }
@@ -1226,7 +1226,7 @@ h3 {
   color: inherit;
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 1.4427rem;
   line-height: 1.1;
 }
@@ -1242,7 +1242,7 @@ h4 {
   color: inherit;
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 1rem;
   line-height: 1.1;
   letter-spacing: 0.140625em;
@@ -1260,7 +1260,7 @@ h5 {
   color: inherit;
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 0.83255rem;
   line-height: 1.1;
 }
@@ -1276,7 +1276,7 @@ h6 {
   color: inherit;
   font-family: "Merriweather", "Georgia", serif;
   font-weight: 900;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility; */
   font-size: 0.75966rem;
   line-height: 1.1;
   font-style: italic;

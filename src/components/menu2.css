@@ -235,7 +235,7 @@
 /* home */
 /* menu-slider */
 
-/* .cd-slider-nav nav {
+.cd-slider-nav nav {
   width: 100%;
   padding: 0 10px;
   display: inline-block;
@@ -323,16 +323,22 @@
   user-select: none;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-} */
-/*
+}
+
 @media only screen and (max-width: 992px) and (min-width: 768px) {
   .col-md-6 {
     width: 75%;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .col-md-6 {
-    width: 50%;
+    width: 75%;
   }
-} */
+}
+
+@media (max-width: 667px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}
