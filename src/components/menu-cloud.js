@@ -1,17 +1,8 @@
 import React from "react"
 import "./menu2.css"
-import "./bootstrap.min.css"
 import "./hero-slider-style.css"
 import "./magnific-popup.css"
 import "./templatemo-style.css"
-
-import { Helmet } from "react-helmet"
-
-// import "../js/bootstrap.min.js"
-// import "../js/hero-slider-main.js"
-// import "../js/jquery-1.11.3.min.js"
-// import "../js/jquery.magnific-popup.min.js"
-// import "../js/jquery.magnific-popup.min.js"
 
 import cloud from "../img/cloud.svg"
 import ecommerce from "../img/ecommerce.svg"
@@ -25,10 +16,6 @@ import cursos from "../img/cursos.svg"
 const MenuCloud = () => {
   return (
     <div>
-      {/* <Helmet>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" />
-      </Helmet> */}
-      {/* <!-- Navigation -->         */}
       <div className="cd-slider-nav">
         <nav className="navbar container">
           <div className="tm-navbar-bg">
@@ -52,7 +39,7 @@ const MenuCloud = () => {
                         src={cloud}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -65,7 +52,7 @@ const MenuCloud = () => {
                       <img
                         src={ecommerce}
                         role="presentation"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -75,12 +62,7 @@ const MenuCloud = () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="3">
                     <div>
-                      <img
-                        src={email}
-                        role="presentation"
-                        width="30px"
-                        alt=""
-                      />
+                      <img src={email} role="presentation" width="30" alt="" />
                     </div>
                     Email
                   </a>
@@ -92,7 +74,7 @@ const MenuCloud = () => {
                         src={podcast}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -102,12 +84,7 @@ const MenuCloud = () => {
                 <li className="nav-item">
                   <a className="nav-link" href={`/`} data-no="5">
                     <div>
-                      <img
-                        src={sites}
-                        role="presentation"
-                        width="30px"
-                        alt=""
-                      />
+                      <img src={sites} role="presentation" width="30" alt="" />
                     </div>
                     Sites
                   </a>
@@ -119,7 +96,7 @@ const MenuCloud = () => {
                         src={video}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
@@ -133,7 +110,7 @@ const MenuCloud = () => {
                         src={cursos}
                         role="presentation"
                         aria-hidden="true"
-                        width="30px"
+                        width="30"
                         alt=""
                       />
                     </div>
