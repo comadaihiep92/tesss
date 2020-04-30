@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+import "../components/blog.css"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
@@ -38,6 +40,7 @@ const BlogIndex = ({ data, location }) => {
               />
             </section>
           </article>
+          // update blog
         )
       })}
     </Layout>
