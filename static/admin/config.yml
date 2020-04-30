@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: stevecura/stt-gatsby
+  name: git-gateway
+  branch: master
 
 media_folder: static/img
 public_folder: /img
