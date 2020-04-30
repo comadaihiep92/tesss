@@ -6,63 +6,63 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  # - name: "blog"
-  #   label: "Blog"
-  #   folder: "content/blog"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   preview_path: "blog/{{slug}}"
-  #   preview_path_date_field: "published_at"
-  #   editor:
-  #     preview: false
-  #   fields:
-  #     - { label: "Title", name: "title", widget: "string" }
-  #     - { label: "Publish Date", name: "date", widget: "datetime" }
-  #     - { label: "Description", name: "description", widget: "string" }
-  #     - { label: "Body", name: "body", widget: "markdown" }
-  - name: "blog/" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/blog/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "{{slug}}"
-    identifier_field: blogTitle
-    fields: # The fields for each document, usually in front matter
-      - {
-          label: "Layout",
-          name: "blogLayout",
-          widget: "hidden",
-          default: "blog",
-        }
-      - { label: "Publish Date", name: "blogDate", widget: "datetime" }
-      - {
-          label: "Author",
-          name: "blogAuthor",
-          widget: "string",
-          required: false,
-        }
-      - { label: "Title", name: "blogTitle", widget: "string" }
-      - {
-          label: "Subtitle",
-          name: "blogSubtitle",
-          widget: "string",
-          required: false,
-        }
-      - name: blogImage
-        label: Featured image
-        widget: object
-        required: false
-        fields:
-          - { name: src, label: Image, widget: image, required: false }
-          - { name: alt, label: Alt text, widget: string, required: false }
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog/{{slug}}"
+    preview_path_date_field: "published_at"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - name: postCategory
-        label: Category
-        widget: select
-        multiple: false
-        options:
-          - blog
-          - new 1
-          - new 2
-          - new 3
-          - new 4
+  # - name: "blog/" # Used in routes, e.g., /admin/collections/blog
+  #   label: "Blog" # Used in the UI
+  #   folder: "content/blog/" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   preview_path: "{{slug}}"
+  #   identifier_field: blogTitle
+  #   fields: # The fields for each document, usually in front matter
+  #     - {
+  #         label: "Layout",
+  #         name: "blogLayout",
+  #         widget: "hidden",
+  #         default: "blog",
+  #       }
+  #     - { label: "Publish Date", name: "blogDate", widget: "datetime" }
+  #     - {
+  #         label: "Author",
+  #         name: "blogAuthor",
+  #         widget: "string",
+  #         required: false,
+  #       }
+  #     - { label: "Title", name: "blogTitle", widget: "string" }
+  #     - {
+  #         label: "Subtitle",
+  #         name: "blogSubtitle",
+  #         widget: "string",
+  #         required: false,
+  #       }
+  #     - name: blogImage
+  #       label: Featured image
+  #       widget: object
+  #       required: false
+  #       fields:
+  #         - { name: src, label: Image, widget: image, required: false }
+  #         - { name: alt, label: Alt text, widget: string, required: false }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+  #     - name: postCategory
+  #       label: Category
+  #       widget: select
+  #       multiple: false
+  #       options:
+  #         - blog
+  #         - new 1
+  #         - new 2
+  #         - new 3
+  #         - new 4
