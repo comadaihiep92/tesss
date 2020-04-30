@@ -1,9 +1,9 @@
 import React from "react"
-import "./menu2.css"
-import "./bootstrap.min.css"
-import "./hero-slider-style.css"
-import "./magnific-popup.css"
-import "./templatemo-style.css"
+// import "./menu2.css"
+// import "./bootstrap.min.css"
+// import "./hero-slider-style.css"
+// import "./magnific-popup.css"
+// import "./templatemo-style.css"
 
 import { Helmet } from "react-helmet"
 

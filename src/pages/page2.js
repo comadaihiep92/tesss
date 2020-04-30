@@ -6,6 +6,14 @@ import Layout3 from "../components/layout3"
 // import "../js/jquery.magnific-popup.min"
 // import "bootstrap/dist/css/bootstrap.css"
 
+// import "../components/menu.css"
+// import "../components/bootstrap.min.css"
+// import "../components/hero-slider-style.css"
+// import "../components/magnific-popup.css"
+// import "../components/templatemo-style.css"
+import Menu from "../components/menu-cloud"
+import Menu2 from "../components/menu2"
+
 import $ from "jquery"
 
 export default class App extends React.Component {
@@ -220,7 +228,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Layout3>
+      <Menu>
         {/* <div className="clearfix"></div>
         <Menu2 />
         <div className="wrapper">
@@ -577,7 +585,7 @@ export default class App extends React.Component {
           </li>
         </ul>
         {/*  <!-- .cd-hero-slider --> */}
-      </Layout3>
+      </Menu>
     )
   }
 }
