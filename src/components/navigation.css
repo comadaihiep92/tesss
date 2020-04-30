@@ -63,6 +63,12 @@
       format("woff");
 }
 
+.wrapper {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
 .nav {
   background-color: #f3f3f7;
   height: 100%;

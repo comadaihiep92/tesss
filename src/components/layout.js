@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
-import "./blog.css"
-import Menu2 from "../components/menu2"
+// import "./blog.css"
+import Navigation from "./navigation"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -52,7 +52,7 @@ const Layout = ({ location, title, children }) => {
   }
   return (
     <div>
-      <Menu2 />
+      <Navigation />
       <div
         style={{
           marginLeft: `auto`,

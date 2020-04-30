@@ -1,13 +1,18 @@
 import React from "react"
-import Menu from "./menu-cloud"
-import Menu2 from "./menu2"
+// import Menu from "./menu-cloud"
+import Navigation from "./navigation"
+import "./navigation.css"
+// import "./menu2.css"
+import "./hero-slider-style.css"
+import "./magnific-popup.css"
+import "./templatemo-style.css"
 
 const Layout3 = ({ children }) => {
   return (
     <div className="app">
-      <Menu2 />
+      <Navigation />
       <div className="wrapper">
-        <Menu />
+        {/* <Menu /> */}
         <div className="cd-hero">{children}</div>
         <footer className="footer">
           <div>© 2020 by Stork. All rights reserved.</div>

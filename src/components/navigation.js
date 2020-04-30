@@ -1,7 +1,11 @@
 import React from "react"
-import "./menu.css"
+import "./navigation.css"
+import "./navigation.css"
+import "./hero-slider-style.css"
+import "./magnific-popup.css"
+import "./templatemo-style.css"
 
-const Menu2 = () => {
+const Navigation = () => {
   return (
     <header>
       <nav className="nav nav--height">
@@ -215,4 +219,4 @@ const Menu2 = () => {
   )
 }
 
-export default Menu2
+export default Navigation
